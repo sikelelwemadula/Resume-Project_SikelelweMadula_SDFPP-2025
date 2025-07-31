@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .DP {
     width: 10em;
     height: 12em;
@@ -19,6 +23,11 @@
     border: 5px solid aqua;
 
 }
+.proficiency{
+    position: relative;
+    
+}
+
 
 .level {
     display:flex;
@@ -26,4 +35,44 @@
     justify-content: space-between;
     margin-left: 2em;
     margin-right: 1.5em;
+} 
+
+
+
+.skill-item {
+    display: block;
+    margin-bottom: 1em;
+    max-width: 25em;
+    margin-left: ;
+
+}
+
+.skill-bar-outer {
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures inner bar stays within bounds */
+}
+
+.skill-bar-inner {
+    background-color: #4CAF50; /* Example color */
+    height: 100%;
+    border-radius: 10px;
+    width: 200px;
+    
+}
+
+
+/* Specific skill levels */
+.javascript {
+    width: 5%;
+}
+.react {
+    width: 5%;
+}
+.node {
+    width: 5%;
+}
+.html-css {
+    width: 80%; 
 }
