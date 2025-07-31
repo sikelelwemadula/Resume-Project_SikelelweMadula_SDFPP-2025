@@ -30,22 +30,19 @@
 
 
 .level {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 2em;
     margin-right: 1.5em;
 } 
 
-
-
 .skill-item {
-    display: block;
     margin-bottom: 1em;
     max-width: 25em;
-    margin-left: ;
 
 }
+
 
 .skill-bar-outer {
     background-color: #e0e0e0;
@@ -75,4 +72,60 @@
 }
 .html-css {
     width: 80%; 
+}
+
+/*.skils {
+  display: flex;
+  justify-content: space-between;
+
+}*/
+.skills {
+  border: 5px solid aqua;
+  width: 44em;
+  height: 27em;
+  display:flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2em;
+
+}
+
+.row-1 {
+  display: flex;
+  gap: 1em;
+}
+.row-2 {
+  display: flex;
+  gap: 1em;
+} 
+.row-3 {
+  display: flex;
+  gap: 1em;
+}
+.row-4 {
+  display: flex;
+  gap: 1em;
+}
+.row-5 {
+  display: flex;
+  gap: 1em;
+
+}
+.pill {
+  border: 2px solid aqua;
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 0.6em;
+  width: 15em;
+  height: 2.5em;
+  text-align: center;
+} 
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  border-spacing: 30px;
 }
