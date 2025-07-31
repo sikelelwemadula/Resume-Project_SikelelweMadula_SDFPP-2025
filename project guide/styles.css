@@ -1,4 +1,29 @@
+.DP {
+    width: 10em;
+    height: 12em;
+    border: 5px solid aqua;
+    padding: 1em;
+    
+}
+
 .resume-header {
-    width: 100em;
-    height: 100em;
+    width: 82.5em;
+    height: 18.5em;
+    display: flex;
+    border: 5px solid aqua;
+}
+
+.proficiency {
+    width: 35em;
+    height: 26em;
+    border: 5px solid aqua;
+
+}
+
+.level {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 1.5em;
 }
