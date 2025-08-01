@@ -5,6 +5,7 @@
 body {
   background-image: url(background.png);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 
 }
 .DP {
@@ -180,7 +181,7 @@ body {
   display: inline-flex;
 }
 .block {
-  background-color: #bbb; /* Example color */
+  background-color: #bbb;
   height: 28px;
   
 }
