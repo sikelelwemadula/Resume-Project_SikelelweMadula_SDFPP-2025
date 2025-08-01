@@ -74,11 +74,7 @@
     width: 80%; 
 }
 
-/*.skils {
-  display: flex;
-  justify-content: space-between;
 
-}*/
 .skills {
   border: 5px solid aqua;
   width: 44em;
@@ -121,11 +117,50 @@
   text-align: center;
 } 
 
-.col-container {
-  display: table;
-  width: 100%;
+
+/*The Project Crad stylings */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
 }
-.col {
-  display: table-cell;
-  border-spacing: 30px;
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the Project Cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+} 
+/* Styling the education box using float before applying grid*/
+.left-paragraph {
+  float: left; 
+  width: 48%; 
+  margin-right: 2%;
+}
+.right-paragraph {
+  float: left;
+  width: 48%;
+}
+.clear {
+  clear: both;
 }
