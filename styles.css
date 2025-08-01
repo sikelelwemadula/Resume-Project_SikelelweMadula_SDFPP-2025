@@ -4,11 +4,13 @@
 
 body {
   background-image: url(background.png);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .DP {
-    width: 17em;
+    width: 18em;
     height: 18em;
-    border-radius: 20px;
+    border-radius: 24px;
     object-fit: fill;
     margin-right: 1em;
     
@@ -16,9 +18,10 @@ body {
 .contain {
   width: 62em;
   height: 18em;
-  border-radius: 20px;
-  padding: 20px;
-  border: 5px solid aqua;
+  border-radius: 24px;
+  padding: 20px 30px;
+  background-color: white;
+
 }
 .resume-header {
     width: 82.5em;
@@ -29,8 +32,10 @@ body {
 .proficiency {
     width: 35em;
     height: 26em;
-    border: 5px solid aqua;
-
+    border-radius: 24px;
+    background-color: white;
+    padding: 1em;
+    margin: 2em 0;
 }
 .proficiency{
     position: relative;
@@ -57,11 +62,11 @@ body {
     background-color: #e0e0e0;
     height: 20px;
     border-radius: 10px;
-    overflow: hidden; /* Ensures inner bar stays within bounds */
+    overflow: hidden; 
 }
 
 .skill-bar-inner {
-    background-color: #4CAF50; /* Example color */
+    background-color: #4A8B70; 
     height: 100%;
     border-radius: 10px;
     width: 200px;
@@ -83,15 +88,16 @@ body {
     width: 80%; 
 }
 
-
+/*Styling of the skills pill box*/
 .skills {
-  border: 5px solid aqua;
   width: 44em;
   height: 27em;
   display:flex;
   flex-direction: column;
   gap: 2em;
   padding: 2em;
+  background-color: white;
+  border-radius: 24px;
 
 }
 
@@ -117,8 +123,7 @@ body {
 
 }
 .pill {
-  border: 2px solid aqua;
-  background-color: aqua;
+  background-color: #E7F0EC;
   border-radius: 20px;
   padding: 0.6em;
   width: 15em;
@@ -144,14 +149,6 @@ body {
   clear: both;
 } 
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
 
 /* Style the Project Cards */
 .card {
@@ -159,7 +156,14 @@ body {
   padding: 16px;
   text-align: left;
   background-color: #f1f1f1;
+  border-radius: 24px;
 } 
+
+.one {
+  background-color: #4A8B70;
+  color: white;
+  border-radius: 24px;
+}
 /* Styling the education box using float before applying grid*/
 
 .school {
@@ -179,4 +183,93 @@ body {
   background-color: #bbb; /* Example color */
   height: 28px;
   
+}
+
+.proj {
+  width: 82em;
+  height: 47em;
+  background-color: white;
+  border-radius: 24px;
+  padding: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+} 
+
+.education {
+  width: 62em;
+  height: 53em;
+  background-color: white;
+  border-radius: 24px;
+  padding-top: 1em;
+  padding-left: 1.5em;
+  margin: 3em 0;
+}
+.green {
+  width: 59em;
+  height: 15em;
+  border-radius: 24px;
+  background-color: #4A8B70;
+  color: white;
+  padding: 2em 1em;
+}
+.grey {
+  width: 59em;
+  height: 15em;
+  border-radius: 24px;
+  background-color: #E7F0EC;
+  color: black;
+  padding: 2em 1em;
+  margin: 0.5em 0;
+  
+}
+
+/*Sorting through the experience tab for correct styling*/
+.experience {
+  width: 82em;
+  height: 40em;
+  border-radius: 24px;
+  background-color: white;
+  padding: 2em;
+  margin: 0.5em 0;
+  
+}
+.school-1 {
+  width: 79em;
+  height: 9em;
+  border-radius: 24px;
+  background-color: #4A8B70;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  color:white;
+}
+.school-2 {
+  width: 79em;
+  height: 9em;
+  border-radius: 24px;
+  background-color: #E7F0EC;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+
+/*Footer Styling*/
+.footer {
+  width: 82em;
+  height: 10em;
+  border-radius: 24px;
+  background-color: #D76239;
+  color: white;
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 2em;
+} 
+
+.proj1 {
+  display: flex;
+  /*align-items: stretch;
+  align-items: flex-end;*/
+}
+.proj1 > * {
+  flex: 1;
 }
