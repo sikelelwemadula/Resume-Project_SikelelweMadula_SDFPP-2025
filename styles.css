@@ -22,6 +22,7 @@ body {
   border-radius: 24px;
   padding: 20px 30px;
   background-color: white;
+  line-height: 24px;
 
 }
 .resume-header {
@@ -333,4 +334,5 @@ Tools Section
 
 .tool-logo {
   place-self: center;
-}
+} 
+
