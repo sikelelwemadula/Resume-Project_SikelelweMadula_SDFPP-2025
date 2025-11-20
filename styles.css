@@ -31,6 +31,9 @@ body {
     display: flex;
 }
 
+/*=======================
+Skill Bar
+=======================*/
 .proficiency {
     width: 35em;
     height: 26em;
@@ -76,7 +79,9 @@ body {
 }
 
 
-/* Specific skill levels */
+/*=====================
+ Specific skill levels 
+ =====================*/
 .javascript {
     width: 5%;
 }
@@ -90,7 +95,9 @@ body {
     width: 80%; 
 }
 
-/*Styling of the skills pill box*/
+/*=============================
+Styling of the skills pill box
+==============================*/
 .skills {
   width: 44em;
   height: 27em;
@@ -134,7 +141,10 @@ body {
 } 
 
 
-/*The Project Crad stylings */
+/*=======================
+The Project Crad stylings 
+========================*/
+
 
 .proj1 {
   display:grid;
@@ -150,7 +160,17 @@ body {
   display: grid;
 }
 
-/* Style the Project Cards */
+.proj1 {
+  display: flex;
+  align-items: stretch;
+}
+.proj1 > * {
+  flex: 1;
+} 
+
+/*=======================
+ Style the Project Cards 
+ =======================*/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -164,21 +184,15 @@ body {
   color: white;
   border-radius: 24px;
 }
-/* Styling the education box using float before applying grid*/
+/*=========================================================
+ Styling the education box using float before applying grid 
+ =========================================================*/
 
 .school {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.left {
-  margin-right: auto;
-}
-.right {
-  margin-left: auto;
-} 
 
-.block1 {
-  display: inline-flex;
-}
 .block {
   background-color: #bbb;
   height: 28px;
@@ -225,7 +239,9 @@ body {
   
 }
 
-/*Sorting through the experience tab for correct styling*/
+/*====================================================
+Sorting through the experience tab for correct styling
+=====================================================*/
 .experience {
   width: 82em;
   height: 40em;
@@ -253,7 +269,9 @@ body {
   margin: 0.5em 0;
 }
 
-/*Footer Styling*/
+/*=============
+Footer Styling
+==============*/
 .footer {
   width: 82em;
   height: 10em;
@@ -265,14 +283,7 @@ body {
   padding-left: 2em;
 } 
 
-.proj1 {
-  display: flex;
-  /*align-items: stretch;
-  align-items: flex-end;*/
-}
-.proj1 > * {
-  flex: 1;
-} 
+
 
 /*===============
 Tools Section
@@ -308,10 +319,6 @@ Tools Section
   margin: auto;
   margin-top: 1em;
   padding-bottom: .2em;
- /* font-weight: 100;
-  border-radius: 10px;
-  width: 5em;
-  text-align: center;*/
   
 }
 
