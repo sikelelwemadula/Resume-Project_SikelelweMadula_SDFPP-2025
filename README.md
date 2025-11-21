@@ -22,7 +22,7 @@ This is not just practice — this is something you can proudly include in your 
 
 ---
 #Video Presentation Link -
-https://www.loom.com/share/88812be62358438c9191c37aa752b160
+
 
 
 ## 🧠 What You'll Build
