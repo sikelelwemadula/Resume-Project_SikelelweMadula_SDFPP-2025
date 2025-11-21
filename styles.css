@@ -36,7 +36,7 @@ Skill Bar
 =======================*/
 .proficiency {
     width: 35em;
-    height: 26em;
+    height: 27em;
     border-radius: 24px;
     background-color: white;
     padding: 1em;
@@ -184,6 +184,15 @@ The Project Crad stylings
   color: white;
   border-radius: 24px;
 }
+.card {
+  position: relative;
+}
+.heart{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  
+}
 /*=========================================================
  Styling the education box using float before applying grid 
  =========================================================*/
@@ -219,6 +228,16 @@ The Project Crad stylings
   padding-top: 1em;
   padding-left: 1.5em;
   margin: 3em 0;
+} 
+.green {
+  position: relative;
+}
+.recent {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  margin-bottom: 10em;
+  
 }
 .green {
   width: 59em;
@@ -340,6 +359,13 @@ Tools Section
 .tool-logo {
   place-self: center;
 } 
+
+/*============
+Mobile Layout
+=============*/
+
+
+
 
 /*=====================
 Web Fist Layout
