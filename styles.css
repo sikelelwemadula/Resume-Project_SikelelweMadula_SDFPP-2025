@@ -341,3 +341,58 @@ Tools Section
   place-self: center;
 } 
 
+/*=====================
+Web Fist Layout
+=====================*/
+
+.site-layout {
+  display: grid;
+  grid-template-columns: 800px 800px;
+  gap: 1em;
+  margin: 0%;
+  padding: 0%;
+  width: 100vh;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: 
+  "header header"
+  "proficiency skills"
+  "projects projects"
+  "education tools"
+  "experience experience"
+  "footer footer";
+}
+
+
+.resume-header {
+  grid-area: header;
+}
+.proficiency {
+  grid-area: proficiency;
+  justify-self: end;
+  margin-right: 5.5em;
+}
+.skills {
+  grid-area: skills;
+  grid-area: 2/1;
+  margin-left: 88em;
+}
+.proj {
+  grid-area: projects;
+}
+.education {
+  grid-area: education;
+  justify-self: start;
+  margin-left: 10em;
+}
+.Tools-container {
+  grid-area: tools;
+  justify-self: end;
+  margin-right: 9.5em;
+}
+.experience {
+  grid-area: experience;
+}
+.footer {
+  grid-area: footer;
+}
