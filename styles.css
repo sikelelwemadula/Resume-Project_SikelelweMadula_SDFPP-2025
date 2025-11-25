@@ -48,11 +48,12 @@ Skill Bar
 .proficiency>h2 {
     font-size: 1.5em;
   }
+
   .level>h3 {
-    font-size: 1em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .skillitem {
   display: flex;
@@ -61,13 +62,16 @@ Skill Bar
    background-color: #e0e0e0;
    border-radius: 20px;
 }
+
 .space {
   margin-right: 2em;
 }
+
 .skillbarouter {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .js,
 .react,
 .node {
@@ -75,6 +79,7 @@ Skill Bar
   background-color: #4A8B70;
   border-radius: 20px;
 }
+
 .ht-css {
   width: 70%; 
   background-color: #4A8B70;
@@ -92,27 +97,6 @@ Skill Bar
     margin-right: 1.5em;
 } 
 
-.skill-item {
-    margin-bottom: 1em;
-    max-width: 25em; 
-    display: 
-
-}
-
-.skill-bar-outer {
-    height: 10px;
-    border-radius: 10px;
-    overflow: hidden; 
-}
-
-
-.skill-bar-inner {
-    height: 100%;
-    border-radius: 10px;
-    width: 100px;
-    
-}
-
 .level {
     display: flex;
     flex-direction: row;
@@ -121,14 +105,6 @@ Skill Bar
     margin-right: 1.5em;
 } 
 
-
-
-
-
-
-/*=====================
- Specific skill levels 
- =====================*/
 
 /*=============================
 Styling of the skills pill box
@@ -411,7 +387,7 @@ Web Fist Layout
   gap: 1em;
   margin: 0%;
   padding: 0%;
-  width: 100vh;
+  width: 700px;
   align-items: center;
   justify-items: center;
   grid-template-areas: 
@@ -461,14 +437,15 @@ Web Fist Layout
 /*=============================
 Media query for small scre3ens
 =============================*/
+
+
 @media (max-width: 640px) {
   .site-layout {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-   
+
 
 }
 
@@ -488,7 +465,7 @@ Media query for small scre3ens
   height: 96px;
   border-radius: 24px;
   background-color: white;
-  line-height: 10px;
+  line-height: 12px;
   padding: 10px
   
 }
@@ -497,6 +474,7 @@ Media query for small scre3ens
   overflow: hidden;
   display:-webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
 
 }
@@ -512,7 +490,6 @@ h1 {
     color: #4A4A4A;
     display: flex;
     align-items: center;
-
   
 }
 
@@ -520,7 +497,7 @@ h1 {
 
 @media (max-width: 640px) {
   .proficiency {
-    width: 16.1em;
+    width: 19.9em;
     height: 11em;
     border-radius: 24px;
     margin: 2em 0;
@@ -566,12 +543,321 @@ h1 {
 .skill-line {
   display: flex;
   align-items: center;
-  margin-left: ;
 }
 
 .level {
     margin-left: 1em;
     margin-right: 0.75em;
 } 
+
+}
+
+@media (max-width: 640px) {
+  .skills {
+  width: 19.9em;
+  height: 22em;
+  display:flex;
+  flex-direction: column;
+  justify-items: space-around;
+  padding: .5em;
+  background-color: white;
+  border-radius: 14px;
+  align-self: end;
+}
+
+.skills>h2 {
+    font-size: 16px;
+  }
+.pill {
+  border-radius: 16px;
+  width: 9em;
+  height: 3em;
+  text-align: center;
+  font-size: 12px;
+  padding: 0.3em;
+} 
+
+}
+
+@media (max-width: 640px) {
+ .proj {
+  width: 19.9em;
+  height: 39.5em;
+  background-color: white;
+  border-radius: 14px;
+  padding:1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+} 
+.card,
+.proj>h2 {
+    font-size: 16px;
+  }
+  
+  
+.proj1 { 
+  gap: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.card {
+  height: 15.5em;
+  width: 8.6em;
+  display: grid;
+  overflow: hidden;
+  display:-webkit-box;
+  -webkit-line-clamp: 0;
+  line-clamp: 0;
+  -webkit-box-orient: vertical;
+}
+ .hide {
+  overflow: hidden;
+  display:-webkit-box;
+  -webkit-line-clamp: 0;
+  line-clamp: 0;
+  -webkit-box-orient: vertical;
+ }
+} 
+
+@media (max-width: 640px) {
+  .Tools-container {
+  width: 19.9em;
+  height: 10em;
+  background-color: white;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0%;
+
+} 
+  .tool-logo {
+  height: 1.5em;
+  width:1.5em;
+  }
+  
+  .languages-bar,
+  .design-bar,
+  .tools-bar {
+  text-align: center;
+  background-color: #E7F0EC;
+  border-radius: 11px;
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Tools-container>h2 {
+  font-size: 17px;
+}
+.Tools-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10px 10px 20px;
+  gap: 0.8em;
+  margin-top: 0.5em;
+  grid-template-areas: 
+  "icon-header icon-header icon-header"
+  "bar-1 bar-2 bar-3"
+  "design-bar tools-bar languages-bar";
+}
+
+.icon-header {
+  grid-area: icon-header;
+}
+.bar-1 {
+  grid-area: bar-1;
+}
+.bar-2 {
+  grid-area: bar-2;
+}
+.bar-3 {
+  grid-area: bar-3;
+}
+.icon-header {
+  grid-column: 1/-1;
+  margin-top: 5px;
+}
+
+
+.bar {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 6px;
+  width: 6em;
+  margin: auto;
+  margin-top: 1em;
+  padding-bottom: .2em;
+  
+}
+
+.languages-bar,
+.design-bar,
+.tools-bar {
+  width: 4.7em;
+  height: 6.5em;
+} 
+
+.tool-logo {
+  place-self: center;
+} 
+
+}
+
+@media (max-width: 640px) {
+  .experience {
+  width: 19.9em;
+  height: 30em;
+  border-radius: 14px;
+  background-color: white;
+  padding: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  overflow: hidden;
+  display:-webkit-box;
+  -webkit-line-clamp: 0;
+  line-clamp: 0;
+  -webkit-box-orient: vertical;
+  
+}
+.school-1 {
+  width: 18em;
+  height: 7.5em;
+  border-radius: 24px;
+  background-color: #4A8B70;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  color:white;
+  overflow: hidden;
+  display:-webkit-box;
+  -webkit-line-clamp: 0;
+  line-clamp: 0;
+  -webkit-box-orient: vertical;
+}
+.school-2 {
+  width: 18em;
+  height: 7.5em;
+  border-radius: 24px;
+  background-color: #E7F0EC;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display:-webkit-box;
+  -webkit-line-clamp: 0;
+  line-clamp: 0;
+  -webkit-box-orient: vertical;
+}
+
+}
+
+@media (max-width: 640px) {
+  .education {
+  width: 19.9em;
+  height: 28.8em;
+  border-radius: 14px;
+  padding-top: .5em;
+  padding-left: .75em;
+  margin: 1.5em 0;
+} 
+
+.education>h2{
+  font-size: 18px;
+}
+
+.recent {
+  display: none;
+}
+.green {
+  width: 18em;
+  height: 7.9em;
+  border-radius: 10px;
+  padding: .5em .25em;
+  
+}
+.grey {
+  width: 18em;
+  height: 7em;
+  border-radius: 10px;
+  padding: .5em .25em;
+  margin: 0.5em 0;
+  
+}
+
+.green,
+.grey {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 5px;
+  overflow: hidden;
+  display:-webkit-box;
+  -webkit-line-clamp: 0;
+  line-clamp: 0;
+  -webkit-box-orient: vertical;
+}
+
+} 
+
+@media (max-width: 640px) {
+  .footer {
+  width: 19.9em;
+  height: 6em;
+  border-radius: 14px;
+  padding-top: 1em;
+  padding-left: 1em;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  overflow: hidden;
+  display:-webkit-box;
+  -webkit-line-clamp: 0;
+  line-clamp: 0;
+  -webkit-box-orient: vertical;
+  }
+
+  .footer>h2 {
+    font-size: 14px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-layout {
+  display: grid;
+  grid-template-columns: 20em;
+
+  row-gap: 1em;
+ 
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: 
+  "header"
+  "proficiency" 
+  "skills"
+  "projects"
+  "education"
+  "tools"
+  "experience"
+  "footer";
+}
+  
+
+
+  .skills {
+  grid-area: 3/1;
+  margin-left: 0em;
+
+}
+
+  #tc {
+   grid-area: 6/1;
+   margin-inline-end: 0em;
+  }
 
 }
