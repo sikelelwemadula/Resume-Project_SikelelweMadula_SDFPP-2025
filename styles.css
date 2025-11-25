@@ -44,11 +44,74 @@ Skill Bar
     padding: 1em;
     margin: 2em 0;
 }
-.proficiency{
-    position: relative;
-    
+
+.proficiency>h2 {
+    font-size: 1.5em;
+  }
+  .level>h3 {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.skillitem {
+  display: flex;
+  flex-direction: column;
+   width: 100%; 
+   background-color: #e0e0e0;
+   border-radius: 20px;
+}
+.space {
+  margin-right: 2em;
+}
+.skillbarouter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.js,
+.react,
+.node {
+  width: 10%; 
+  background-color: #4A8B70;
+  border-radius: 20px;
+}
+.ht-css {
+  width: 70%; 
+  background-color: #4A8B70;
+  border-radius: 20px;
 }
 
+.skill-line {
+  display: flex;
+  align-items: center;
+  
+}
+
+.level {
+    margin-left: 2em;
+    margin-right: 1.5em;
+} 
+
+.skill-item {
+    margin-bottom: 1em;
+    max-width: 25em; 
+    display: 
+
+}
+
+.skill-bar-outer {
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+
+.skill-bar-inner {
+    height: 100%;
+    border-radius: 10px;
+    width: 100px;
+    
+}
 
 .level {
     display: flex;
@@ -58,44 +121,14 @@ Skill Bar
     margin-right: 1.5em;
 } 
 
-.skill-item {
-    margin-bottom: 1em;
-    max-width: 25em;
-
-}
 
 
-.skill-bar-outer {
-    background-color: #e0e0e0;
-    height: 20px;
-    border-radius: 10px;
-    overflow: hidden; 
-}
 
-.skill-bar-inner {
-    background-color: #4A8B70; 
-    height: 100%;
-    border-radius: 10px;
-    width: 200px;
-    
-}
 
 
 /*=====================
  Specific skill levels 
  =====================*/
-.javascript {
-    width: 5%;
-}
-.react {
-    width: 5%;
-}
-.node {
-    width: 5%;
-}
-.html-css {
-    width: 80%; 
-}
 
 /*=============================
 Styling of the skills pill box
@@ -436,19 +469,109 @@ Media query for small scre3ens
   justify-content: center;
   flex-wrap: wrap;
    
-.resume-header,
-.proficiency,
-.skills,
-.proj,
-.education,
-.Tools-container,
-.experience,
-.footer {
-  width: 90%;
+
+}
+
+}
+
+@media (max-width: 640px) {
+  .DP {
+    width: 6em;
+    height: 6em;
+    border-radius: 24px;
+    object-fit: fill;
+    margin-right: 0.5em;
+    
+}
+.contain {
+  width: 12em;
+  height: 96px;
+  border-radius: 24px;
+  background-color: white;
+  line-height: 10px;
+  padding: 10px
+  
+}
+
+.contain>p {
+  overflow: hidden;
+  display:-webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+}
+h1 {
+  font-size: 18px;
+  line-height: 1em;
+  margin-top: 0%;
+}
+.resume-header {
+    width: 19.9em;
+    height: 8.5em;
+    font-size: 14px;
+    color: #4A4A4A;
+    display: flex;
+    align-items: center;
+
+  
+}
+
+}
+
+@media (max-width: 640px) {
+  .proficiency {
+    width: 16.1em;
+    height: 11em;
+    border-radius: 24px;
+    margin: 2em 0;
+    line-height: 0%;
+}
+
+  .proficiency>h2 {
+    font-size: 16px;
+  }
+  .level>h3 {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+.skillitem {
+  display: flex;
+  flex-direction: column;
+   width: 100%; 
+   background-color: #e0e0e0;
+   border-radius: 10px;
+}
+.space {
+  margin-right: 1em;
+}
+.skillbarouter {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.js,
+.react,
+.node {
+  width: 10%; 
+  background-color: #4A8B70;
+  border-radius: 10px;
+}
+.ht-css {
+  width: 70%; 
+  background-color: #4A8B70;
+  border-radius: 10px;
+}
+
+.skill-line {
+  display: flex;
+  align-items: center;
+  margin-left: ;
+}
+
+.level {
+    margin-left: 1em;
+    margin-right: 0.75em;
 } 
 
-
 }
-
-}
-
