@@ -18,11 +18,11 @@ This is not just practice — this is something you can proudly include in your 
 - A screen recording of your presentation (5–10 minutes)
 - A complete README (you’re reading it!)
 
- 🎨Link to Figma Reference File: https://www.loom.com/share/bb066ce8724b4019bad3e8c6efe077e0
+ 🎨Link to Figma Reference File: https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1
 
 ---
 #Video Presentation Link -
-https://www.loom.com/share/a21ecd0d73d74b44be80b625e496b413
+https://www.loom.com/share/bb066ce8724b4019bad3e8c6efe077e0
 
 
 ## 🧠 What You'll Build
