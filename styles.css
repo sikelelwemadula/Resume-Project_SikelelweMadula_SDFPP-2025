@@ -152,7 +152,7 @@ Styling of the skills pill box
 
 
 /*=======================
-The Project Crad stylings 
+The Project Card set-up 
 ========================*/
 
 
@@ -370,13 +370,6 @@ Tools Section
   place-self: center;
 } 
 
-/*============
-Mobile Layout
-=============*/
-
-
-
-
 /*=====================
 Web Fist Layout
 =====================*/
@@ -441,14 +434,11 @@ Media query for small screens
 
 @media (max-width: 640px) {
   .site-layout {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
 }
 
 @media (max-width: 640px) {
@@ -457,9 +447,9 @@ Media query for small screens
     height: 96px;
     border-radius: 24px;
     object-fit: fill;
-    margin-right: 0.2em;
-    
+    margin-right: 0.2em;  
 }
+
 .contain {
   width: 15em;
   height: 96px;
@@ -476,13 +466,14 @@ Media query for small screens
   -webkit-line-clamp: 3;
   line-clamp: 3;
   -webkit-box-orient: vertical;
-
 }
+
 h1 {
   font-size: 18px;
   line-height: 1em;
   margin-top: 0%;
 }
+
 .resume-header {
     width: 23em;
     height: 8.5em;
@@ -490,9 +481,7 @@ h1 {
     color: #4A4A4A;
     display: flex;
     align-items: center;
-  
 }
-
 }
 
 @media (max-width: 640px) {
@@ -507,6 +496,7 @@ h1 {
   .proficiency>h2 {
     font-size: 16px;
   }
+  
   .level>h3 {
     font-size: 10px;
     margin-top: 5px;
@@ -516,17 +506,20 @@ h1 {
 .skillitem {
   display: flex;
   flex-direction: column;
-   width: 100%; 
-   background-color: #e0e0e0;
-   border-radius: 10px;
+  width: 100%; 
+  background-color: #e0e0e0;
+  border-radius: 10px;
 }
+
 .space {
   margin-right: 1em;
 }
+
 .skillbarouter {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .js,
 .react,
 .node {
@@ -534,6 +527,7 @@ h1 {
   background-color: #4A8B70;
   border-radius: 10px;
 }
+
 .ht-css {
   width: 70%; 
   background-color: #4A8B70;
@@ -549,25 +543,25 @@ h1 {
     margin-left: 1em;
     margin-right: 0.75em;
 } 
-
 }
 
 @media (max-width: 640px) {
   .skills {
-  width: 19.9em;
-  height: 22em;
-  display:flex;
-  flex-direction: column;
-  justify-items: space-around;
-  padding: .5em;
-  background-color: white;
-  border-radius: 14px;
-  align-self: end;
+    width: 19.9em;
+    height: 22em;
+    display:flex;
+    flex-direction: column;
+    justify-items: space-around;
+    padding: .5em;
+    background-color: white;
+    border-radius: 14px;
+    align-self: end;
 }
 
 .skills>h2 {
     font-size: 16px;
   }
+
 .pill {
   border-radius: 16px;
   width: 9em;
@@ -576,20 +570,19 @@ h1 {
   font-size: 12px;
   padding: 0.3em;
 } 
-
 }
 
 @media (max-width: 640px) {
  .proj {
-  width: 19.9em;
-  height: 39.5em;
-  background-color: white;
-  border-radius: 14px;
-  padding:1em;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
+    width: 19.9em;
+    height: 39.5em;
+    background-color: white;
+    border-radius: 14px;
+    padding:1em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
 } 
 .card,
 .proj>h2 {
@@ -601,7 +594,6 @@ h1 {
   gap: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
 }
 
 .card {
@@ -614,7 +606,8 @@ h1 {
   line-clamp: 0;
   -webkit-box-orient: vertical;
 }
- .hide {
+ 
+.hide {
   overflow: hidden;
   display:-webkit-box;
   -webkit-line-clamp: 0;
@@ -632,39 +625,39 @@ h1 {
   text-align: center;
   font-size: 16px;
   margin-top: 0%;
-
 } 
+  
   .tool-logo {
-  height: 1.5em;
-  width:1.5em;
+    height: 1.5em;
+    width:1.5em;
   }
   
   .languages-bar,
   .design-bar,
   .tools-bar {
-  text-align: center;
-  background-color: #E7F0EC;
-  border-radius: 11px;
-  display: grid;
-  grid-template-columns:1fr 1fr ;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
+    text-align: center;
+    background-color: #E7F0EC;
+    border-radius: 11px;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Tools-container>h2 {
-  font-size: 17px;
+    font-size: 17px;
 }
 .Tools-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10px 10px 20px;
-  gap: 0.8em;
-  margin-top: 0.5em;
-  grid-template-areas: 
-  "icon-header icon-header icon-header"
-  "bar-1 bar-2 bar-3"
-  "design-bar tools-bar languages-bar";
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10px 10px 20px;
+    gap: 0.8em;
+    margin-top: 0.5em;
+    grid-template-areas: 
+    "icon-header icon-header icon-header"
+    "bar-1 bar-2 bar-3"
+    "design-bar tools-bar languages-bar";
 }
 
 .icon-header {
@@ -693,7 +686,6 @@ h1 {
   margin: auto;
   margin-top: 1em;
   padding-bottom: .2em;
-  
 }
 
 .languages-bar,
@@ -706,65 +698,63 @@ h1 {
 .tool-logo {
   place-self: center;
 } 
-
 }
 
 @media (max-width: 640px) {
   .experience {
-  width: 19.9em;
-  height: 30em;
-  border-radius: 14px;
-  background-color: white;
-  padding: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1em;
-  overflow: hidden;
-  display:-webkit-box;
-  -webkit-line-clamp: 0;
-  line-clamp: 0;
-  -webkit-box-orient: vertical;
+    width: 19.9em;
+    height: 30em;
+    border-radius: 14px;
+    background-color: white;
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-line-clamp: 0;
+    line-clamp: 0;
+    -webkit-box-orient: vertical;
   
 }
 .school-1 {
-  width: 18em;
-  height: 7.5em;
-  border-radius: 24px;
-  background-color: #4A8B70;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0%;
-  color:white;
-  overflow: hidden;
-  display:-webkit-box;
-  -webkit-line-clamp: 0;
-  line-clamp: 0;
-  -webkit-box-orient: vertical;
+    width: 18em;
+    height: 7.5em;
+    border-radius: 24px;
+    background-color: #4A8B70;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    color:white;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-line-clamp: 0;
+    line-clamp: 0;
+    -webkit-box-orient: vertical;
 }
 .school-2 {
-  width: 18em;
-  height: 7.5em;
-  border-radius: 24px;
-  background-color: #E7F0EC;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  display:-webkit-box;
-  -webkit-line-clamp: 0;
-  line-clamp: 0;
-  -webkit-box-orient: vertical;
+    width: 18em;
+    height: 7.5em;
+    border-radius: 24px;
+    background-color: #E7F0EC;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-line-clamp: 0;
+    line-clamp: 0;
+    -webkit-box-orient: vertical;
 }
-
 }
 
 @media (max-width: 640px) {
   .education {
-  width: 19.9em;
-  height: 28.8em;
-  border-radius: 14px;
-  padding-top: .5em;
-  padding-left: .75em;
-  margin: 1.5em 0;
+    width: 19.9em;
+    height: 28.8em;
+    border-radius: 14px;
+    padding-top: .5em;
+    padding-left: .75em;
+    margin: 1.5em 0;
 } 
 
 .education>h2{
@@ -774,20 +764,20 @@ h1 {
 .recent {
   display: none;
 }
+
 .green {
   width: 18em;
   height: 7.9em;
   border-radius: 10px;
   padding: .5em .25em;
-  
 }
+
 .grey {
   width: 18em;
   height: 7em;
   border-radius: 10px;
   padding: .5em .25em;
-  margin: 0.5em 0;
-  
+  margin: 0.5em 0; 
 }
 
 .green,
@@ -801,23 +791,22 @@ h1 {
   line-clamp: 0;
   -webkit-box-orient: vertical;
 }
-
 } 
 
 @media (max-width: 640px) {
   .footer {
-  width: 19.9em;
-  height: 6em;
-  border-radius: 14px;
-  padding-top: 1em;
-  padding-left: 1em;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  overflow: hidden;
-  display:-webkit-box;
-  -webkit-line-clamp: 0;
-  line-clamp: 0;
-  -webkit-box-orient: vertical;
+    width: 19.9em;
+    height: 6em;
+    border-radius: 14px;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-line-clamp: 0;
+    line-clamp: 0;
+    -webkit-box-orient: vertical;
   }
 
   .footer>h2 {
@@ -829,22 +818,20 @@ h1 {
 
 @media (max-width: 640px) {
   .site-layout {
-  display: grid;
-  grid-template-columns: 20em;
-
-  row-gap: 1em;
- 
-  align-items: center;
-  justify-items: center;
-  grid-template-areas: 
-  "header"
-  "proficiency" 
-  "skills"
-  "projects"
-  "education"
-  "tools"
-  "experience"
-  "footer";
+    display: grid;
+    grid-template-columns: 20em;
+    row-gap: 1em;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: 
+    "header"
+    "proficiency" 
+    "skills"
+    "projects"
+    "education"
+    "tools"
+    "experience"
+    "footer";
 }
   
 
@@ -852,12 +839,10 @@ h1 {
   .skills {
   grid-area: 3/1;
   margin-left: 0em;
-
 }
 
   #tc {
    grid-area: 6/1;
    margin-inline-end: 0em;
   }
-
 }
